@@ -1,0 +1,336 @@
+! Bilibili uBlock Origin 用户自定义规则 (整理版)
+
+! --- 核心功能 / 潜在风险规则 (请谨慎修改) ---
+
+! 屏蔽此规则会阻止播放器控件操作 (如暂停、播放等)
+!||s1.hdslb.com/bfs/static/player/main/widgets/npd
+
+! 不可屏蔽，屏蔽后视频无法播放
+!||upos-sz-mirror08h.bilivideo.com/upgcxcode
+! 此为视频流的具体 URL 示例，通常不应屏蔽
+!||upos-sz-mirror08h.bilivideo.com/upgcxcode/88/27/29707472788/29707472788-1-30280.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&og=hw&tag=&nbs=1&uipk=5&platform=pc&mid=333474183&deadline=1746600555&gen=playurlv3&oi=1901160137&trid=0000579d2e3bdf724a298786878a13cbc39u&os=mcdn&upsig=5a0286853c33d6602f84dbfffac8a2e1&uparams=e,og,tag,nbs,uipk,platform,mid,deadline,gen,oi,trid,os&mcdnid=50021951&bvc=vod&nettype=0&bw=188314&buvid=7C6F5159-384D-17A4-DB9B-394A7BC33AC582650infoc&build=0&dl=0&f=u_0_0&agrr=0&orderid=0,3
+
+! 该规则阻止 live-trace.bilibili.com/... web心跳数。
+! Web心跳数记录前端观看时长和观看记录，阻止其可能对直播观看历史记录产生影响。
+! 同时小心心的获取是每5分钟给予一次，阻止心跳数将会使得后端无法记录时间，从而不能给予小心心。
+! 总之这个不需要屏蔽。
+!live-trace.bilibili.com
+!https://live-trace.bilibili.com/xlive/data-interface/v1/x25Kn/(E或X)
+
+! 这是进度条预览图片，感觉还是挺有用的就不屏蔽了。
+!https://bimp.hdslb.com/videoshotpvhdboss/587249971_f7528b-0001.jpg@3200w_1800h_50q.avif
+!||bimp.hdslb.com/videoshotpvhdboss/*.jpg@3200w_1800h_50q.avif
+
+
+! --- 日志 / 监控 / 上报 / 用户行为追踪 ---
+
+! Bilibili 前端监控 biliMirror - 阻止数据上报和核心组件加载
+! 阻止日志数据发送的主要端点
+||api.bilibili.com/x/web-frontend/action-log/upload^
+||api.bilibili.com/x/web-frontend/action-log/upload-image^
+||data.bilibili.com/log/web^
+! 上面的一个规则来自 log-reporter.js
+
+! 阻止加载用于处理和发送日志的核心PB上报脚本
+||s1.hdslb.com/bfs/seed/jinkela/short/reporter-pb/index.js^
+! 用于 PB 格式上报 (biliMirror体系)，阻止这个脚本会破坏 biliMirror 的上报能力。
+
+! 阻止加载获取监控配置的脚本 (可能影响其他依赖KvSDK的功能)
+||s1.hdslb.com/bfs/seed/jinkela/kv-sdk/index.js^
+
+! 阻止加载白屏截图脚本 (只阻止白屏截图功能)
+||s1.hdslb.com/bfs/seed/jinkela/short/html2canvas/html2canvas.min.js^
+
+! 可选：通过scriptlet中和发送到日志端点的网络请求（作为补充，应对脚本直接调用API的情况）
+! 如果担心脚本绕过上面的网络规则直接调用原生API发送数据到这些路径，可以使用以下scriptlet规则作为补充。
+bilibili.com##+js(no-xhr-send, /action-log\/upload/)
+bilibili.com##+js(no-fetch, /action-log\/upload/)
+
+bilibili.com##+js(no-beacon-send)
+! 阻止所有Beacon请求，因为日志常用Beacon，且难以精确匹配URL
+
+! 可选：阻止 biliMirror 脚本本身加载。这是最直接但风险最高的选项。
+! 如果页面其他功能依赖这个脚本初始化某些不涉及上报的内容，启用它可能导致页面错误。
+! 通常不推荐启用，除非你确定没有副作用或能容忍潜在的错误。
+! FBI WARNING，启用后live直播间无法加载。
+!||s1.hdslb.com/bfs/seed/jinkela/short/b-mirror/biliMirror.umd.mini.js^
+
+! Bilibili 用户指纹和行为检测脚本
+||s1.hdslb.com/bfs/seed/jinkela/short/user-fingerprint/bili-user-fingerprint.min.js^
+
+! Bilibili 性能加载时间上报脚本，对性能影响极其低
+||s1.hdslb.com/bfs/seed/log/report/950.ee096.function.chunk.js^
+
+! 如果选择直接屏蔽这些 chunk 文件，规则如下 (不推荐使用通配符)，硬要用的话可以用一个试试
+||s1.hdslb.com/bfs/seed/log/report/*.function.chunk.js^
+!!!testing 25 5 11!!!
+! Bilibili 滚动出现上报脚本
+||s1.hdslb.com/bfs/seed/log/report/512.65972.function.chunk.js^
+! Bilibili 错误上报脚本
+||s1.hdslb.com/bfs/seed/log/report/86.fd3f7.function.chunk.js^
+
+
+
+! 阻止加载日志收集脚本
+||s1.hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js
+
+
+! --- 风险验证码 / 安全相关 ---
+
+! Bilibili 风险验证码加载器 - 阻止配置和逻辑加载
+||api.bilibili.com/x/web-frontend/risk/config^
+
+! 阻止 CaptchaLoader 脚本本身加载（风险高）
+! 实验证明不能屏蔽，否则点赞收藏等无法使用。
+!||s1.hdslb.com/bfs/seed/jinkela/risk-captcha-sdk/CaptchaLoader.js^
+!!!!testing 2025 5 8
+
+! 阻止验证码核心逻辑脚本的加载。注意：具体URL是从配置API返回的，这里无法写死。
+! 可以尝试阻止加载路径中包含"captcha"或"risk"的js文件。这可能会误伤其他脚本，需要根据实际情况调整。
+||s1.hdslb.com/bfs/seed/jinkela/*.js$domain=bilibili.com,path=/risk/,path=/captcha/
+||s1.hdslb.com/bfs/static/*.js$domain=bilibili.com,path=/risk/,path=/captcha/
+
+
+! --- 用户头像 / 装扮 / 勋章 / 等级 ---
+
+! 默认头像构思图片
+!屏蔽头像,默认的构思
+||i0.hdslb.com/bfs/seed/jinkela/short/webui/avatar/img/res-local6.jpeg
+
+! 评论区用户头像 (常规尺寸及格式)
+!i1.hdslb.com/bfs/face/53ca9559e68d024b5d4f563c0fac9b97b8f59aca.jpg@96w_96h_1c_1s.avif (示例)
+||i1.hdslb.com/bfs/face/*@96w_96h_1c_1s.avif
+||i*.hdslb.com/bfs/face/*@96w_96h_1c_1s.avif
+||i1.hdslb.com/bfs/face/*@74w_74h_1c_1s.avif
+||i1.hdslb.com/bfs/face/*.jpg@74w_74h_1c_1s.avif
+||i1.hdslb.com/bfs/face/*.gif@74w_74h_1c.avif
+||i0.hdslb.com/bfs/face/*.webp@74w_74h_1c.avif
+||i1.hdslb.com/bfs/face/*@74w_74h_1c.avif
+||i2.hdslb.com/bfs/face/*@74w_74h_1c_1s.webp
+||i*.hdslb.com/bfs/face/*@90w_90h_1c.avif
+||i1.hdslb.com/bfs/face/*@90w_90h_1c.avif
+||i2.hdslb.com/bfs/face/*.webp@90w_90h_1c.avif
+||i1.hdslb.com/bfs/face/*.png@132w_132h_1c_1s.avif
+||i1.hdslb.com/bfs/face/*@132w_132h_1c_1s.avif
+||i1.hdslb.com/bfs/face/*@132w_132h_1c.avif
+
+!整理后
+||i*.hdslb.com/bfs/face/*@96w_96h_1c*.avif
+||i*.hdslb.com/bfs/face/*@96w_96h_1c*.webp
+||i*.hdslb.com/bfs/face/*@74w_74h_1c*.avif
+||i*.hdslb.com/bfs/face/*@74w_74h_1c*.webp
+||i*.hdslb.com/bfs/face/*@90w_90h_1c.avif
+||i*.hdslb.com/bfs/face/*@90w_90h_1c.webp
+||i*.hdslb.com/bfs/face/*@132w_132h_1c*.avif
+||i*.hdslb.com/bfs/face/*@132w_132h_1c*.webp
+
+
+
+
+
+! 二级评论小头像 (48x48)通配
+! 感觉不如感觉，随便要不要屏蔽啦
+!||i*.hdslb.com/bfs/face/*@48w_48h_1s*.avif
+
+
+! 头像框 / 奇怪的头像相关图片
+! 奇怪的头像框一起屏蔽了，杀！
+||i1.hdslb.com/bfs/face/*@158w_158h_1c*.avif
+||i1.hdslb.com/bfs/face/*@158w_158h_1c*.webp
+||i1.hdslb.com/bfs/face/*@.avif
+
+! 评论区用户右上角个性装扮 / 周边标识 (图片及元素屏蔽)
+! 用来屏蔽用户的评论右上角个性装扮
+||i0.hdslb.com/bfs/garb/item/*
+||i0.hdslb.com/bfs/garb/open/*
+||i*.hdslb.com/bfs/garb/item/*@*.webp
+!i0.hdslb.com/bfs/garb/item/6efef5847f537f15118ef40b9b17136099374d48.png@96h.webp (示例)
+||i1.hdslb.com/bfs/garb/item/*.webp@132w_132h_1c.avif
+!i1.hdslb.com/bfs/garb/open/0e8854c5f5572cd282e3dd1749ed8f312f25e663.png@132w_132h_1c_1s.avif (示例)
+||i1.hdslb.com/bfs/garb/open/*.png@132w_132h_1c_1s.avif
+||i*.hdslb.com/bfs/garb/item/*.png@*
+www.bilibili.com##comment img[src*="/bfs/garb/item/"]
+
+! 用户评论浮动条构思图片
+||i1.hdslb.com/bfs/space/*.png@732w_170h_1c.avif
+
+! UP主头像 (注意与评论区头像规则重叠)
+!up主的头像
+!||i1.hdslb.com/bfs/face/27ee3828e275a55c2ad34ff8368eb7289dcf2c1c.jpg@96w_96h_1c_1s_!web-avatar.avif (示例)
+!||i*.hdslb.com/bfs/face/*_!web-avatar.avif (示例)
+!通配，防杀up主头像！！！
+@@||i1.hdslb.com/bfs/face/*@*!web-avatar.avif
+
+
+
+! 等级标识 (LV)
+!LV等级
+||i0.hdslb.com/bfs/seed/jinkela/short/webui/user-profile/img/level_1.svg
+||i0.hdslb.com/bfs/seed/jinkela/short/webui/user-profile/img/level_2.svg
+||i0.hdslb.com/bfs/seed/jinkela/short/webui/user-profile/img/level_3.svg
+||i0.hdslb.com/bfs/seed/jinkela/short/webui/user-profile/img/level_4.svg
+
+! 大会员 / VIP 标识
+!3vip标识
+||i0.hdslb.com/bfs/vip/d7b702ef65a976b20ed854cbd04cb9e27341bb79.png@.webp
+||i0.hdslb.com/bfs/vip/8d4f8bfc713826a5412a0a27eaaac4d6b9ede1d9.png@.webp
+||i0.hdslb.com/bfs/vip/*.png
+||i0.hdslb.com/bfs/activity-plat/static/20220614/e369244d0b14644f5e1a06431e22a4d5/KJunwh19T5.png
+
+! 过于激进的图片屏蔽 (会屏蔽所有头像图片)
+! 过于激进，会把所有图片屏蔽掉
+!||i*.hdslb.com/bfs/face/*@* (示例，不推荐启用)
+
+
+! --- 广告 / 推广 / 横幅 / 会员物料 ---
+
+! Bilibili 大会员物料广告 - 阻止API请求
+!||api.bilibili.com/x/vip/ads/materials?position=3&platform=pc^ (示例)
+||api.bilibili.com/x/vip/ads/materials^
+
+! 屏蔽主页的顶端横幅图片 (空间页面)
+! 2025年5月7日 https://space.bilibili.com
+||i0.hdslb.com/bfs/space/cb1c3ef50e22b6096fde67febe863494caefebad.png@2560w_400h_100q_1o.webp$image
+||i0.hdslb.com/bfs/space/87277d30cd19edcec9db466a9a3e556aeb0bc0ed.png@2560w_400h_100q_1o.webp$image
+! 通配符规则，屏蔽空间顶端横幅图片
+||i0.hdslb.com/bfs/space/*.png@2560w_400h_100q_1o.webp$image
+||i0.hdslb.com/bfs/space/*@2560w_400h_100q_1o.webp$image
+
+! 哪来的广告 (测试图片？)
+! 正在尝试屏蔽此规则
+||i0.hdslb.com/bfs/test/ce1cf20203c303963e78c811b01100667c960bba.png
+!!!!testing 2025 5 8，正在尝试第二个规则
+||i0.hdslb.com/bfs/test/*.png
+
+! 广播聊天 (可能用于促销信息)
+! 方便卖家向消费者发送活动促销信息，上传横幅广告。
+||broadcast.chat.bilibili.com
+
+! 直播框下面的推广图片（banner横幅）及其容器元素
+||i1.hdslb.com/bfs/live/*@1e_1c.webp
+live.bilibili.com##.w-100.over-hidden.p-relative.flip-view
+
+! 最上面的广告提示 (元素屏蔽)
+www.bilibili.com##.adblock-tips
+
+! 下载客户端提示 (元素屏蔽)
+www.bilibili.com##.download-client-trigger.download-entry
+
+
+! --- 推荐 / 首页 / 侧栏 ---
+
+!!!! 首页的推荐流
+! 2025年5月8日 https://www.bilibili.com
+www.bilibili.com##.is-version8.container > div.floor-single-card > .single-card.floor-card
+
+! 侧栏推荐视频相关 (尝试屏蔽封面图及其父元素)
+! 尝试屏蔽图片，无效果
+!||i1.hdslb.com/bfs/archive/*@336w_190h_1c_!web-video-rcmd-cover.avif (示例)
+! 屏蔽侧栏推荐模块内 URL 包含 /bfs/archive/ 的图片 (CSS 规则)
+www.bilibili.com##bili-video-recommend img[src*="/bfs/archive/"] { display: none !important; }
+! 屏蔽侧栏推荐视频封面图片 (更通用 CSS 规则)
+bilibili.com##bili-video-recommend .recommend-item img { display: none !important; }
+! 或者，如果图片直接在推荐项的某个元素内，例如 .cover 类名内 (CSS 规则)
+bilibili.com##bili-video-recommend .recommend-item .cover img { display: none !important; }
+
+! 尝试匹配图片屏蔽视频推荐，失败
+!||i1.hdslb.com/bfs/archive/*.jpg@336w_190h_1c_!web-video-rcmd-cover.*$image (示例)
+!||i1.hdslb.com/bfs/archive/*@336w_190h_1c_!web-video-rcmd-cover.*$image (示例)
+
+! 屏蔽推荐视频的卡片及其中的 UP 主名字 (元素屏蔽)
+www.bilibili.com##.rec-list > div.video-page-card-small > .card-box > .pic-box
+! 2025年5月7日 https://www.bilibili.com
+www.bilibili.com##.rec-list > div.video-page-card-small > .card-box > .info > .upname
+
+! 直播筛选规则，似乎失效了
+!直播筛选，似乎失效了
+www.bilibili.com##.live-card:has-text(/电台|陪伴学习|萌宠|唱见|舞见|视频|虚拟主播|独立游戏/)
+
+! 首页推荐中的直播屏蔽 (元素屏蔽)
+www.bilibili.com##.bili-live-card__wrap
+
+
+! --- 直播相关 ---
+
+! 屏蔽直播间快捷方式按钮 (元素屏蔽)
+! 2025年5月9日 https://live.bilibili.com
+live.bilibili.com##div.pointer.f-left.p-relative.h-100.shortcut-item:nth-of-type(3)
+!live.bilibili.com###right-part > div.shortcuts-ctnr.h-100.f-left:last-child > div.shortcut-item.h-100.p-relative.f-left.pointer:nth-child(3) > div.vertical-middle.dp-table.h-100 > div.dp-table-cell.v-middle (示例，已注释)
+
+! 本机ip被获取信息 (网络请求)
+||api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo
+
+! 屏蔽直播间的底面画面 (图片)
+||i0.hdslb.com/bfs/live/636d66a97d5f55099a9d8d6813558d6d4c95fd61.jpg@1920w_1080h.webp
+
+! 直播下面的up主动态 (API)
+||api.vc.bilibili.com
+
+! 直播聊天 Comet Server / Tracker 相关 (网络请求)
+! 这个像是 PCDN 上传屏蔽
+||bd-bj-live-comet-06.chat.bilibili.com
+||bd-bj-live-comet-*.chat.bilibili.com
+||zj-cn-live-comet.chat.bilibili.com
+||*live-comet*.chat.bilibili.com
+||*tracker*.chat.bilibili.com
+! 可能为 PCDN 相关
+bbad349a6b862bc871fedbbb7809f91e.v.smtcdns.net
+||*.v.smtcdns.net
+
+
+! --- 评论区表情包 ---
+
+! 屏蔽评论区表情包 (自定义 / 付费表情)
+||i1.hdslb.com/bfs/emote/3e2f1385777a3428f413dea75755abb5d4fd7b08.png
+||i1.hdslb.com/bfs/emote/*@100w_100h.avif
+||i1.hdslb.com/bfs/emote/*.png@100w_100h.avif
+
+! 常规的 emojy 表情包就不屏蔽了 (用户说明不屏蔽)
+!||i0.hdslb.com/bfs/emote/3087d273a78ccaff4bb1e9972e2ba2a7583c9f11.png@40w_40h.avif (示例)
+!||i0.hdslb.com/bfs/emote/*@40w_40h.avif (示例)
+
+
+! --- 视频播放页元素屏蔽 ---
+
+! 视频播放页充电按钮
+! 副歌你要充电吗？
+www.bilibili.com##.charge-btn-loaded.new-charge-btn.default-btn
+www.bilibili.com##.charge-btn-loaded.new-charge-btn
+
+! 视频播放页发送消息按钮
+! 干嘛不点进去主页发消息？
+www.bilibili.com##.send-msg
+
+! 活动标签 banner
+! 一大块长方形区域展示广告。
+www.bilibili.com##.act-end.activity-m-v1
+www.bilibili.com##.inside-wrp
+www.bilibili.com##.act-now.activity-m-v1
+
+
+! --- 通用脚本 / 资源 / CDN / 其他 ---
+
+! 字体文件
+||s1.hdslb.com/bfs/static/jinkela/long/font/HarmonyOS
+
+! 通用 API?
+||api.bilibili.com/x/kv-frontend/namespace/data?appKey
+
+! 这是一纯粹的技术性兼容性工具，不需要屏蔽
+||bilibili.com/gentleman/polyfill.js
+
+! 加载界面 GIF 图，感觉没啥用
+||i0.hdslb.com/bfs/static/jinkela/long/gif/loading-blue.gif
+
+! 屏蔽 CDN 测速链接
+||static.hdslb.com
+||interface.bilibili.com
+
+! jszip 库，不确定用不用得到，暂时先屏蔽 (来自第三方 CDN)
+! 2025年5月7日 https://live.bilibili.com
+!||cdnjs.cloudflare.com/ajax/libs/jszip/3.10.0/jszip.min.js^ (示例，已注释)
+
+! --- 用户说明的无效/失败规则 ---
+
+! 这样的规则无法屏蔽 ||i1.hdslb.com/bfs/garb/open/*@.avif
+!!!!!
