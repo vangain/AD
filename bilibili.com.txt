@@ -98,22 +98,6 @@ bilibili.com##+js(no-beacon-send)
 ||i0.hdslb.com/bfs/seed/jinkela/short/webui/avatar/img/res-local6.jpeg
 
 ! 评论区用户头像 (常规尺寸及格式)
-!i1.hdslb.com/bfs/face/53ca9559e68d024b5d4f563c0fac9b97b8f59aca.jpg@96w_96h_1c_1s.avif (示例)
-||i1.hdslb.com/bfs/face/*@96w_96h_1c_1s.avif
-||i*.hdslb.com/bfs/face/*@96w_96h_1c_1s.avif
-||i1.hdslb.com/bfs/face/*@74w_74h_1c_1s.avif
-||i1.hdslb.com/bfs/face/*.jpg@74w_74h_1c_1s.avif
-||i1.hdslb.com/bfs/face/*.gif@74w_74h_1c.avif
-||i0.hdslb.com/bfs/face/*.webp@74w_74h_1c.avif
-||i1.hdslb.com/bfs/face/*@74w_74h_1c.avif
-||i2.hdslb.com/bfs/face/*@74w_74h_1c_1s.webp
-||i*.hdslb.com/bfs/face/*@90w_90h_1c.avif
-||i1.hdslb.com/bfs/face/*@90w_90h_1c.avif
-||i2.hdslb.com/bfs/face/*.webp@90w_90h_1c.avif
-||i1.hdslb.com/bfs/face/*.png@132w_132h_1c_1s.avif
-||i1.hdslb.com/bfs/face/*@132w_132h_1c_1s.avif
-||i1.hdslb.com/bfs/face/*@132w_132h_1c.avif
-
 !整理后
 ||i*.hdslb.com/bfs/face/*@96w_96h_1c*.avif
 ||i*.hdslb.com/bfs/face/*@96w_96h_1c*.webp
