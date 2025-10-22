@@ -435,7 +435,6 @@ tieba.baidu.com###thread_list>li:nth-of-type(7)
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_listLiveTvCnt
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list + li[class]:not(.j_thread_list)
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game-head-game-info-wrapper
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-aside\/pagelet\/ad\
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post:not([data-field*="\"user_id\":1"]):not([data-field*="\"user_id\":2"]):not([data-field*="\"user_id\":3"]):not([data-field*="\"user_id\":4"]):not([data-field*="\"user_id\":5"]):not([data-field*="\"user_id\":6"]):not([data-field*="\"user_id\":7"]):not([data-field*="\"user_id\":8"]):not([data-field*="\"user_id\":9"])
 ||imgsrc.baidu.com/forum/pic/item/252dd42a2834349bdfde342fc3ea15ce37d3be44.jpg$image
 wapp.baidu.com##.appPromote.pb.\39 392
@@ -482,7 +481,6 @@ m.baidu.com##.tc-card:nth-of-type(3)
 m.baidu.com###appBanner
 www.baidu.com##div.ecr-pc-game-gn-also-search-biz,table[id^="400"],table[id^="500"],div[id^="400"],div[id^="300"],a[href$="e.baidu.com/?refer=666"]
 ||ecmb.bdimg.com^
-ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div[class][style]:not([id]) ipv6.baidu.com,www.baidu.com,www1.baidu.com###ecl-weigou-view-container ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-weigou-nav-buy
 baidu.com###ec_wise_adtopnum
 ||bdimg.share.baidu.com/static/js/*
 ||sclick.baidu.com^
@@ -1300,9 +1298,6 @@ xdaforums.com##.js-enablePushContainer.notice--enablePush.notice--primary
 
 right.com.cn###pid > tbody > tr:nth-child(2) > td.plc.plm > div.sign
 
-! 2025年5月24日 https://www.right.com.cn
-www.right.com.cn###[id^="pid"]
-
 ! 2025年9月3日 https://www.bilibili.com
 www.bilibili.com##.request-permission
 
@@ -1464,4 +1459,143 @@ www.miyoushe.com##.mhy-qrcode-bottom-card.fixed_side
 ! 2025年9月9日 https://www.bing.com
 www.bing.com##div[data-viewname="CornerBOP"]
 www.bing.com##.vert_make_default
+
+! 2025年9月24日 https://cn.bing.com
+cn.bing.com##div[data-iid="Trivia"]
+cn.bing.com##.bingwpapplink
+cn.bing.com##.feedback-binded.feedback_button
+
+! 2025年9月28日 https://www.doubao.com
+www.doubao.com##.cursor-default.w-fit.mr-auto.ml-auto.font-semibold.text-center.text-s-color-text-secondary
+www.doubao.com##[data-testid="suggest_message_list"]
+www.doubao.com##[data-testid="message_action_like"]
+www.doubao.com##[data-testid="message_action_dislike"]
+www.doubao.com##[data-testid="message_action_report"]
+www.doubao.com##[data-testid="message_action_share"]
+www.doubao.com##[data-testid="create_doc_by_message"]
+www.doubao.com##button[data-testid="sidebar_download_desktop_btn"]
+www.doubao.com##div[class="semi-portal-inner"]
+!www.doubao.com##button[aria-haspopup="dialog"]
+
+! 2025年9月28日 https://ipt.kopisee.com
+ipt.kopisee.com##.full.community.block
+ipt.kopisee.com##.contact_icon.block
+ipt.kopisee.com##div[aria-label="cookieconsent"]
+ipt.kopisee.com##footer
+
+! 2025年10月1日 https://www.haozhuangji.com
+www.haozhuangji.com##div[class="sub-box cl"]
+www.haozhuangji.com##.foot-box
+
+! 2025年10月7日 https://www.miyoushe.com
+www.miyoushe.com##.mhy-qrcode-bottom-card-show.mhy-qrcode-download-card
+www.miyoushe.com##.footer
+www.miyoushe.com##.swiper-container-horizontal.swiper-container-initialized.swiper-container.mhy-ad-container
+www.miyoushe.com##div[class="mhy-ad-container swiper-container swiper-container-initialized swiper-container-horizontal"]
+www.miyoushe.com##.mhy-announcement.mhy-action-sheet
+www.miyoushe.com##div[class="mhy-action-sheet mhy-announcement"]
+
+! 2025年10月7日 https://live.bilibili.com,直播主页面屏蔽特效
+live.bilibili.com##div[class="banner-area"]
+live.bilibili.com##.ts-dot-4.bg-bright-filter.bg-no-repeat.bg-center.p-zero.p-absolute.h-100.w-100.bg-image
+
+! 2025年10月7日 https://live.bilibili.com
+live.bilibili.com##.no__data
+
+! 2025年10月7日 https://play-live.bilibili.com
+play-live.bilibili.com##.footer
+
+! 2025年10月7日 https://live.bilibili.com
+!live.bilibili.com##.app-footer
+!live.bilibili.com##div[title="公会入驻"]
+!live.bilibili.com##div[title="公会中心"]
+!live.bilibili.com##div[title="幻星互动"]
+!live.bilibili.com##aside[data-v-6fcff86a]
+
+! 2025年10月7日 https://www.bilibili.com
+www.bilibili.com##div[class="bpx-player-loading-panel"]
+www.bilibili.com##div[class="bpx-player-loading-panel bpx-state-loading"]
+
+!bing搜索结果屏蔽！
+bing.com#?#li:has(cite:contains(csdn.net))
+bing.com#?#li:has(cite:contains(bk.taobao.com))
+bing.com#?#li:has(cite:contains(163.com))
+
+! 2025年10月8日 https://aistudio.google.com
+aistudio.google.com##.ng-star-inserted> .ng-star-inserted.lockup-logo
+
+! 2025年10月9日 https://stat2-ans.chaoxing.com
+||stat2-ans.chaoxing.com/stat2/images/ocr/bg.png
+
+! 2025年10月11日 https://gouhuo.qq.com
+gouhuo.qq.com##.we-footer.widget-footer.official-ft
+gouhuo.qq.com##.suspended-weibo.suspended-item
+gouhuo.qq.com##.suspended-qq.suspended-item
+gouhuo.qq.com##.suspended-wechat.suspended-item
+gouhuo.qq.com##.suspended-collect.suspended-item
+
+! 2025年10月12日 https://www.ithome.com
+www.ithome.com###rm-login-modal
+
+! 2025年10月14日 https://cn.bing.com
+cn.bing.com##a[aria-label="下载必应 App"]
+cn.bing.com##div[class="hb_section_nohover"]
+cn.bing.com##.hc_card.footer
+cn.bing.com###games_overflow
+
+! 2025年10月15日 https://mooc1.chaoxing.com
+mooc1.chaoxing.com##[class="aiAssistant ceyanAiAssistant"]
+!专用于形式与政策！！！平时不需要启动
+mooc1.chaoxing.com##[class="myAnswerBx marBot16"]
+
+! 2025年10月18日 https://www.xitongzhijia.net
+www.xitongzhijia.net##.footer
+www.xitongzhijia.net##.m-sidebar-b.m-sidebar
+www.xitongzhijia.net##.col-r-w.m-side-col
+www.xitongzhijia.net##.art-xtjc.m-soft-recom
+www.xitongzhijia.net##.feedback_box
+www.xitongzhijia.net##.look-move
+www.xitongzhijia.net##.comment_hint
+www.xitongzhijia.net##.mb40.course_poster_box
+
+! 2025年10月18日 https://www.xitongzhijia.com
+www.xitongzhijia.com##.mt-20.bottom-banner
+
+! 2025年10月18日 https://bangong.xitongzhijia.net
+bangong.xitongzhijia.net##.footer
+
+! 2025年10月18日 https://link.bilibili.com
+link.bilibili.com##.link-footer
+
+! 2025年10月18日 https://zh.moegirl.org.cn
+zh.moegirl.org.cn###moe-global-footer
+
+! 2025年10月18日 https://tieba.baidu.com
+tieba.baidu.com##.tbui_fbar_auxiliaryCare.tbui_aside_fbar_button
+tieba.baidu.com##.tbui_fbar_down.tbui_aside_fbar_button
+tieba.baidu.com##.tbui_fbar_share.tbui_aside_fbar_button
+tieba.baidu.com##.tbui_fbar_feedback.tbui_aside_fbar_button
+tieba.baidu.com##.footer
+
+! 2025年10月20日 https://mooc1.chaoxing.com
+mooc1.chaoxing.com##div[onclick="openAiRobot()"]
+mooc1.chaoxing.com##div[class="maskDivReport"]
+mooc1.chaoxing.com##div[id="reportDiv"]
+!两个无效规则mooc1.chaoxing.com##span[class="pageNum"]
+!mooc1.chaoxing.com##span[style="opacity: 1;"]
+
+! 2025年10月21日 https://www.bilibili.com
+www.bilibili.com###biliMainFooter
+
+! 2025年10月21日 https://space.bilibili.com
+space.bilibili.com##.download-client-trigger.download-entry
+
+! 2025年10月22日 https://mooc1.chaoxing.com
+mooc1.chaoxing.com##.ewmBg.iconBg
+
+! 2025年10月22日 https://i.chaoxing.com
+i.chaoxing.com##.floatLayer
+
+! 2025年10月22日 https://v.qq.com
+v.qq.com###ssi-footer
 
