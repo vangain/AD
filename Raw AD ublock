@@ -1033,11 +1033,9 @@ live.bilibili.com##div.pointer.f-left.p-relative.h-100.shortcut-item:nth-of-type
 
 ! 直播聊天 Comet Server / Tracker 相关 (网络请求)
 ! 这个像是 PCDN 上传屏蔽
-||bd-bj-live-comet-06.chat.bilibili.com
-||bd-bj-live-comet-*.chat.bilibili.com
-||zj-cn-live-comet.chat.bilibili.com
-||*live-comet*.chat.bilibili.com
 ||*tracker*.chat.bilibili.com
+!这个是聊天弹幕
+!||*live-comet*.chat.bilibili.com
 ! 可能为 PCDN 相关
 bbad349a6b862bc871fedbbb7809f91e.v.smtcdns.net
 ||*.v.smtcdns.net
@@ -1608,4 +1606,24 @@ www.ithome.com##footer
 !mooc1.chaoxing.com##.tabs
 !mooc1.chaoxing.com##.posChapter_right.posChapter
 !mooc1.chaoxing.com##.iconBox
+
+mooc1.chaoxing.com##div[class="mask_div"]
+
+! 2025年11月22日 https://yuanbao.tencent.com
+yuanbao.tencent.com##.hyc-component-reasoner__think--expand.hyc-component-reasoner__think > .hyc-component-reasoner__think-content
+
+! 2025年11月27日 https://yuanbao.tencent.com
+yuanbao.tencent.com##.index_downloadPCAdsWrapperNew__9OzA\+
+yuanbao.tencent.com##.agent-dialogue__tool__download
+
+! 2025年11月29日 https://csgo.5eplay.com
+csgo.5eplay.com##.mt20.tcenter.article-user-likes
+csgo.5eplay.com##.banner-fixed
+csgo.5eplay.com##.download-footer
+
+! 2025年11月29日 https://news.qq.com
+news.qq.com###article-footer
+
+! 2025年11月29日 https://bbs.pcbeta.com
+bbs.pcbeta.com###ftbg
 
