@@ -12,7 +12,7 @@
 
 ! 该规则阻止 live-trace.bilibili.com/... web心跳数。
 ! Web心跳数记录前端观看时长和观看记录，阻止其可能对直播观看历史记录产生影响。
-! 同时小心心的获取是每5分钟给予一次，阻止心跳数将会使得后端无法记录时间，从而不能给予小心心。
+! 同时小心心的获取是每5分钟给予一次，阻止心跳数将会使得后端无法记录时间，从而不能给予小心心。chat.bilibil
 ! 总之这个不需要屏蔽。
 !live-trace.bilibili.com
 !https://live-trace.bilibili.com/xlive/data-interface/v1/x25Kn/(E或X)
@@ -268,11 +268,9 @@ live.bilibili.com##div.pointer.f-left.p-relative.h-100.shortcut-item:nth-of-type
 
 ! 直播聊天 Comet Server / Tracker 相关 (网络请求)
 ! 这个像是 PCDN 上传屏蔽
-||bd-bj-live-comet-06.chat.bilibili.com
-||bd-bj-live-comet-*.chat.bilibili.com
-||zj-cn-live-comet.chat.bilibili.com
-||*live-comet*.chat.bilibili.com
 ||*tracker*.chat.bilibili.com
+!这个是聊天弹幕
+!||*live-comet*.chat.bilibili.com
 ! 可能为 PCDN 相关
 bbad349a6b862bc871fedbbb7809f91e.v.smtcdns.net
 ||*.v.smtcdns.net
