@@ -902,6 +902,8 @@ bilibili.com##+js(no-beacon-send)
 ||i1.hdslb.com/bfs/face/*@158w_158h_1c*.avif
 ||i1.hdslb.com/bfs/face/*@158w_158h_1c*.webp
 ||i1.hdslb.com/bfs/face/*@.avif
+||i2.hdslb.com/bfs/face/*@158w_158h_1c_1s.webp
+||i2.hdslb.com/bfs/face/*@158w_158h_1c_1s.avif
 
 ! 评论区用户右上角个性装扮 / 周边标识 (图片及元素屏蔽)
 ! 用来屏蔽用户的评论右上角个性装扮
@@ -916,8 +918,10 @@ bilibili.com##+js(no-beacon-send)
 www.bilibili.com##comment img[src*="/bfs/garb/item/"]
 
 ! 用户评论浮动条构思图片
+||i0.hdslb.com/bfs/space/*.png@732w_170h_1c.avif
 ||i1.hdslb.com/bfs/space/*.png@732w_170h_1c.avif
-
+||i2.hdslb.com/bfs/space/*.png@732w_170h_1c.avif
+||i*.hdslb.com/bfs/space/*.png@732w_170h_1c.avif
 ! UP主头像 (注意与评论区头像规则重叠)
 !up主的头像
 !||i1.hdslb.com/bfs/face/27ee3828e275a55c2ad34ff8368eb7289dcf2c1c.jpg@96w_96h_1c_1s_!web-avatar.avif (示例)
@@ -1033,7 +1037,7 @@ live.bilibili.com##div.pointer.f-left.p-relative.h-100.shortcut-item:nth-of-type
 
 ! 直播聊天 Comet Server / Tracker 相关 (网络请求)
 ! 这个像是 PCDN 上传屏蔽
-||*tracker*.chat.bilibili.com
+!||*tracker*.chat.bilibili.com
 !这个是聊天弹幕
 !||*live-comet*.chat.bilibili.com
 ! 可能为 PCDN 相关
@@ -1626,4 +1630,40 @@ news.qq.com###article-footer
 
 ! 2025年11月29日 https://bbs.pcbeta.com
 bbs.pcbeta.com###ftbg
+
+! 2025年12月2日 https://www.toutiao.com
+www.toutiao.com##.ttp-portal-anime-show.ttp-portal-show.ttp-message-wrapper.ttp-portal-wrapper
+www.toutiao.com##.download.tool-item
+www.toutiao.com##.download-app-banner
+
+! 2025年12月2日 https://aistudio.google.com
+#aistudio临时收起思考框
+!aistudio.google.com##.thought-collapsed-text
+!aistudio.google.com##.compact-accordion.mat-accordion
+
+! 2025年12月4日 https://event.5eplay.com
+event.5eplay.com##.mini-footer
+event.5eplay.com##.right-aside-box
+
+! 2025年12月4日 https://csgo.5eplay.com
+csgo.5eplay.com##.qrcode-wrap
+||static.5eplay.com/images/app/bg.jpg$image
+||static.5eplay.com/images/app/img_wrap.png$image
+csgo.5eplay.com##.app-wrap
+
+! 2025年12月6日 https://www.sohu.com
+www.sohu.com##.prize-survey.back-sohu
+
+! 2025年12月6日 https://cn.bing.com
+cn.bing.com##.b_inline_ajax_rs
+
+! 2025年12月6日 https://wallstreetcn.com
+wallstreetcn.com##.footer
+wallstreetcn.com##.article-share
+wallstreetcn.com##.aside-item.article-action > .share-list
+wallstreetcn.com##.gap.nav-item
+
+! 2025年12月11日 https://event.5eplay.com
+event.5eplay.com##.footer
+event.5eplay.com##footer
 
