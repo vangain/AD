@@ -1,1 +1,2 @@
-!在edge中打开copilot首页，ublock 1.68.0无法工作
+!在edge 142.0.3595.80中打开copilot首页，ublock 1.68.0无法工作
+!然而在Chrome 129.0.6668.59中ublock 1.68.0可以正常工作。一定是edge干的白名单（
