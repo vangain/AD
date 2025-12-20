@@ -62,12 +62,7 @@ live.bilibili.com###radix-\:r20\: > div.max-h-\[var\(--radix-dropdown-menu-conte
 ! Kdocs.cn
 www.kdocs.cn##.k-jxm-helper-icons-other
 
-! Doubao.com
-www.doubao.com##.banner-RJQSCG.bg-\[var\(--s-color-bg-body\,\#fff\)\].rounded-s-radius-xl.p-\[var\(--s-radius-m\,16px\)\].w-320.gap-12.items-center.justify-center.flex-col.flex
-www.doubao.com##.banner-gCwt5D.bg-\[var\(--s-color-bg-body\,\#fff\)\].rounded-s-radius-xl.p-\[var\(--s-radius-m\,16px\)\].w-320.gap-12.items-center.justify-center.flex-col.flex
-www.doubao.com##.carousel-container-DRoIUr
-www.doubao.com##.suggest-message-list-wrapper-vIWkLo
-www.doubao.com##.greeting-animation-oNbbop.greeting-TVZjot.cursor-default.w-fit.mr-auto.ml-auto.font-semibold.text-center.text-s-color-text-secondary
+
 
 ! Unipus.cn
 
@@ -1121,15 +1116,9 @@ pintia.cn##.gap-3.lg\:grid-cols-4.sm\:grid-cols-3.grid-cols-2.grid
 !github.com##.ChatInput-module__input--iApWs
 !github.com##.ChatInput-module__inputContainer--BcExV
 
-! 2025年5月11日 https://www.doubao.com
-www.doubao.com##.suggest-message-list-wrapper-ng51XO
 
 ! 2025年5月12日 https://sourceforge.net
 ||amazon-adsystem.com
-
-! 2025年5月12日 https://www.doubao.com
-ibytedapm.com
-lf3-short.ibytedapm.com
 
 ! 2025年5月12日 https://ypj.lanzout.com
 ypj.lanzout.com##.foot_info
@@ -1173,22 +1162,7 @@ aistudio.google.com##[class*="ng-tns"].nav-list > [class*="ng-tns"].clickable-sp
 aistudio.google.com##.mat-icon-no-color.mat-icon-inline.mat-ligature-font.material-icons.material-symbols-outlined.notranslate.mat-icon
 aistudio.google.com##button.ng-star-inserted.mat-unthemed.response-feedback-button.mat-mdc-tooltip-trigger.mat-mdc-button-base.mat-mdc-icon-button.mdc-icon-button
 
-! 2025年5月15日 https://www.doubao.com
-!右上角的推广
-!下载电脑版
-www.doubao.com##button.text-s-color-text-secondary.cursor-pointer.hover\:bg-s-color-bg-trans.rounded-8.font-medium.text-14.bg-transparent.border-none.w-full.min-w-192.gap-8.pr-10.pl-12.py-8.items-center.flex.s-font-small-strong:nth-of-type(1)
-!下载手机应用
-www.doubao.com##button.text-s-color-text-secondary.cursor-pointer.hover\:bg-s-color-bg-trans.rounded-8.font-medium.text-14.bg-transparent.border-none.w-full.min-w-192.gap-8.pr-10.pl-12.py-8.items-center.flex.s-font-small-strong:nth-of-type(2)
-!豆包产品官网
-www.doubao.com##button.text-s-color-text-secondary.cursor-pointer.hover\:bg-s-color-bg-trans.rounded-8.font-medium.text-14.bg-transparent.border-none.w-full.min-w-192.gap-8.pr-10.pl-12.py-8.items-center.flex.s-font-small-strong:nth-of-type(3)
-!豆包大模型团队
-www.doubao.com##button.text-s-color-text-secondary.cursor-pointer.hover\:bg-s-color-bg-trans.rounded-8.font-medium.text-14.bg-transparent.border-none.w-full.min-w-192.gap-8.pr-10.pl-12.py-8.items-center.flex.s-font-small-strong:nth-of-type(4)
-!豆包大模型服务
-www.doubao.com##button.text-s-color-text-secondary.cursor-pointer.hover\:bg-s-color-bg-trans.rounded-8.font-medium.text-14.bg-transparent.border-none.w-full.min-w-192.gap-8.pr-10.pl-12.py-8.items-center.flex.s-font-small-strong:nth-of-type(5)
-!Ola Friend 耳机
-www.doubao.com##button.text-s-color-text-secondary.cursor-pointer.hover\:bg-s-color-bg-trans.rounded-8.font-medium.text-14.bg-transparent.border-none.w-full.min-w-192.gap-8.pr-8.pl-12.py-8.items-center.flex:nth-of-type(6)
-!安装 Trae 编程 IDE
-www.doubao.com##button.text-s-color-text-secondary.cursor-pointer.hover\:bg-s-color-bg-trans.rounded-8.font-medium.text-14.bg-transparent.border-none.w-full.min-w-192.gap-8.pr-8.pl-12.py-8.items-center.flex:nth-of-type(7)
+
 
 ! 2025年5月15日 https://url94.ctfile.com
 !url94.ctfile.com##footer
@@ -1207,8 +1181,6 @@ aistudio.google.com##.mat-snack-bar-container-animations-enabled.mat-snack-bar-c
 ||www.gstatic.com/aistudio/watermark/watermark.png$image
 aistudio.google.com##.generating.loading-indicator
 
-! 2025年5月17日 https://www.doubao.com
-www.doubao.com##.suggest-message-list-wrapper-F3rGR_
 
 ! 2025年5月17日 https://aistudio.google.com
 ||www.gstatic.com/images/branding/productlogos/googleg/v6/24px.svg$image
@@ -1218,11 +1190,6 @@ aistudio.google.com##.search-entry-container-title
 
 ! 2025年5月18日 https://aistudio.google.com
 aistudio.google.com##.ng-tns-c1458329229-6.gradient-text
-
-! 2025年5月22日 https://www.doubao.com
-||p3-flow-imagex-sign.byteimg.com/ocean-cloud-tos/image_generation$image
-||p3-flow-imagex-sign.byteimg.com/ocean-cloud-tos/image_generation/263dfe9f1f325650a2988ccdb292b6a8_1747725697228414289.png~tplv-a9rns2rl98-image.png?rk3s=25bff839&x-expires=1779261697&x-signature=C7jxZRfRfVHLSZx5SYRXDubQCbw%3D$image
-www.doubao.com##.banner-uSuXZd.bg-\[var\(--s-color-bg-body\,\#fff\)\].rounded-s-radius-xl.p-\[var\(--s-radius-m\,16px\)\].w-320.gap-12.items-center.justify-center
 
 ! 2025年5月22日 https://www.kimi.com
 www.kimi.com##.legal-footer
@@ -1239,8 +1206,7 @@ chatglm.cn##.vip-guide-container
 chatglm.cn##div.recommend-item
 chatglm.cn##.star-container
 
-! 2025年5月22日 https://www.doubao.com
-www.doubao.com##.greeting-animation-eQzyPZ
+
 
 ! 2025年5月24日 https://sr.mihoyo.com
 sr.mihoyo.com##.waiting-in-queue__bottom__guide.waiting-in-queue-guide
@@ -1467,17 +1433,7 @@ cn.bing.com##div[data-iid="Trivia"]
 cn.bing.com##.bingwpapplink
 cn.bing.com##.feedback-binded.feedback_button
 
-! 2025年9月28日 https://www.doubao.com
-www.doubao.com##.cursor-default.w-fit.mr-auto.ml-auto.font-semibold.text-center.text-s-color-text-secondary
-www.doubao.com##[data-testid="suggest_message_list"]
-www.doubao.com##[data-testid="message_action_like"]
-www.doubao.com##[data-testid="message_action_dislike"]
-www.doubao.com##[data-testid="message_action_report"]
-www.doubao.com##[data-testid="message_action_share"]
-www.doubao.com##[data-testid="create_doc_by_message"]
-www.doubao.com##button[data-testid="sidebar_download_desktop_btn"]
-www.doubao.com##div[class="semi-portal-inner"]
-!www.doubao.com##button[aria-haspopup="dialog"]
+
 
 ! 2025年9月28日 https://ipt.kopisee.com
 ipt.kopisee.com##.full.community.block
@@ -1666,4 +1622,59 @@ wallstreetcn.com##.gap.nav-item
 ! 2025年12月11日 https://event.5eplay.com
 event.5eplay.com##.footer
 event.5eplay.com##footer
+
+! 2025年12月18日 https://www.bing.com
+www.bing.com##.composer_container
+
+! 2025年12月19日 https://mooc1.chaoxing.com 学习通作业临时屏蔽自己的作答以及分数
+mooc1.chaoxing.com## .aiArea > .aiAreaContent > .mark_answer > .clearfix.mark_key > .fl.marginRight40.colorDeep
+mooc1.chaoxing.com##.aiArea > .aiAreaContent > .mark_answer > .mark_score
+mooc1.chaoxing.com##.aiArea > .aiAssistant
+mooc1.chaoxing.com##.positionStyle > .mark_score
+!填空题作答
+mooc1.chaoxing.com##dd > .marking_cuo
+mooc1.chaoxing.com##.aiArea > .aiAreaContent > .mark_answer > div > .colorDeep.mark_fill
+
+
+
+!!!!!!doubao.com屏蔽
+
+!豆包的右上角左边产品更新通知
+www.doubao.com##.semi-button-with-icon-only.semi-button-with-icon.\!h-40.\!w-40.semi-button-light.semi-button-size-small.semi-button-primary.semi-button
+
+!中间的探索--div
+www.doubao.com##div[id="experiment-guidance-suggestions"]
+
+!右上角的推广--button(下到上)
+www.doubao.com##button[data-testid="mars_code_button"]
+www.doubao.com##button[data-testid="ola_friend_button"]
+www.doubao.com##button[data-testid="modal_service_button"]
+www.doubao.com##button[data-testid="model_team_button"]
+www.doubao.com##button[data-testid="doubao_product_website"]
+www.doubao.com##button[data-testid="download_app_item"]
+www.doubao.com##div[data-testid="download_item"]
+
+!中间的东西--div
+www.doubao.com##div[id="experiment-guidance-suggestions"]
+
+!文本输出后评价--div
+www.doubao.com##div[data-testid="suggest_message_list"]
+
+!喜欢还是不喜欢--button
+www.doubao.com##button[data-testid="message_action_like"]
+www.doubao.com##button[data-testid="message_action_dislike"]
+www.doubao.com##li[data-testid="message_action_report"]
+
+!分享消息--button
+!www.doubao.com##button[data-testid="message_action_share"]
+
+!转为文档编辑--button
+www.doubao.com##button[data-testid="create_doc_by_message"]
+
+!验证中
+||p3-flow-imagex-sign.byteimg.com/ocean-cloud-tos/image_generation$image
+
+!验证中
+ibytedapm.com
+lf3-short.ibytedapm.com
 
