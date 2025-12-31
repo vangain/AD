@@ -89,24 +89,7 @@ kimi.moonshot.cn##.home-banner
 kimi.moonshot.cn##.recommend-prompt
 kimi.moonshot.cn##.legal-footer
 
-! https://copilot.microsoft.com
-copilot.microsoft.com##.px-6.max-w-discover.w-full.mb-\[var\(--composer-container-height\)\]
-copilot.microsoft.com##.text-center.px-6.justify-center.max-w-chat.flex.bottom-0.absolute
-copilot.microsoft.com##.text-center.px-2.text-pretty.justify-center.max-w-chat.flex.bottom-0.absolute
-copilot.microsoft.com##h1
-copilot.microsoft.com##.z-20.sm\:items-start.sm\:flex-initial.px-2.items-end.flex-none.max-w-chat.w-full.h-\[150px\].flex.pointer-events-auto
-copilot.microsoft.com###\:r0\: > div.relative.flex.flex-col.z-10 > button.relative.flex.items-center.justify-center.text-foreground-800.fill-foreground-800.active\:text-foreground-600.active\:fill-foreground-600.dark\:active\:text-foreground-650.dark\:active\:fill-foreground-650.bg-transparent.hover\:bg-black\/5.active\:bg-black\/3.dark\:hover\:bg-white\/8.dark\:active\:bg-white\/5.text-sm.min-h-10.min-w-10.px-3.py-2.gap-x-2.rounded-xl.before\:rounded-xl.before\:absolute.before\:inset-0.before\:pointer-events-none.before\:border.before\:border-transparent.before\:contrast-more\:border-2.outline-2.outline-offset-1.focus-visible\:z-\[1\].focus-visible\:outline.focus-visible\:outline-stroke-900.justify-between.text-start:nth-child(6)
-copilot.microsoft.com###\:r0\: > div.relative.flex.flex-col.z-10 > button.relative.flex.items-center.justify-center.text-foreground-800.fill-foreground-800.active\:text-foreground-600.active\:fill-foreground-600.dark\:active\:text-foreground-650.dark\:active\:fill-foreground-650.bg-transparent.hover\:bg-black\/5.active\:bg-black\/3.dark\:hover\:bg-white\/8.dark\:active\:bg-white\/5.text-sm.min-h-10.min-w-10.px-3.py-2.gap-x-2.rounded-xl.before\:rounded-xl.before\:absolute.before\:inset-0.before\:pointer-events-none.before\:border.before\:border-transparent.before\:contrast-more\:border-2.outline-2.outline-offset-1.focus-visible\:z-\[1\].focus-visible\:outline.focus-visible\:outline-stroke-900.justify-between.text-start:nth-child(7)
-copilot.microsoft.com###\:r0\: > div.relative.flex.flex-col.z-10 > button.relative.flex.items-center.justify-center.text-foreground-800.fill-foreground-800.active\:text-foreground-600.active\:fill-foreground-600.dark\:active\:text-foreground-650.dark\:active\:fill-foreground-650.bg-transparent.hover\:bg-black\/5.active\:bg-black\/3.dark\:hover\:bg-white\/8.dark\:active\:bg-white\/5.text-sm.min-h-10.min-w-10.px-3.py-2.gap-x-2.rounded-xl.before\:rounded-xl.before\:absolute.before\:inset-0.before\:pointer-events-none.before\:border.before\:border-transparent.before\:contrast-more\:border-2.outline-2.outline-offset-1.focus-visible\:z-\[1\].focus-visible\:outline.focus-visible\:outline-stroke-900.justify-between.text-start:nth-child(8)
-copilot.microsoft.com###\:r0\: > div.relative.flex.flex-col.z-10 > div.flex.w-full.flex-wrap.justify-center.gap-x-5.gap-y-1.px-5.py-2.text-black\/80.text-2xs.dark\:text-white\/80:last-child
-copilot.microsoft.com###\:r2\: > div.relative.flex.flex-col > div.m-2.rounded-2xl.px-4.pb-4.pt-5.flex.flex-col.items-center.justify-center.bg-cover.bg-\[center_bottom_10\%\].dark\:bg-\[center_bottom_38\%\].bg-spot-peach-150.dark\:bg-midnight-700:first-child
-copilot.microsoft.com###\:r4\: > div.relative.flex.flex-col > div.m-2.rounded-2xl.px-4.pb-4.pt-5.flex.flex-col.items-center.justify-center.bg-cover.bg-\[center_bottom_10\%\].dark\:bg-\[center_bottom_38\%\].bg-spot-peach-150.dark\:bg-midnight-700:first-child > button.relative.flex.items-center.text-foreground-800.fill-foreground-800.active\:text-foreground-600.active\:fill-foreground-600.dark\:active\:text-foreground-650.dark\:active\:fill-foreground-650.shadow-button-light.dark\:shadow-button-dark.bg-white\/70.safe-hover\:bg-white.active\:bg-white\/60.dark\:bg-slate-450\/30.dark\:safe-hover\:bg-slate-450\/40.dark\:active\:bg-slate-450\/20.text-sm.justify-center.min-h-10.min-w-10.px-3.py-2.gap-x-2.rounded-xl.before\:rounded-xl.before\:absolute.before\:inset-0.before\:pointer-events-none.before\:border.before\:border-transparent.before\:contrast-more\:border-2.outline-2.outline-offset-1.focus-visible\:z-\[1\].focus-visible\:outline.focus-visible\:outline-stroke-900.mt-3.w-full.backdrop-blur:last-child
-copilot.microsoft.com###\:r4\: > div.relative.flex.flex-col > div.m-2.rounded-2xl.px-4.pb-4.pt-5.flex.flex-col.items-center.justify-center.bg-cover.bg-\[center_bottom_10\%\].dark\:bg-\[center_bottom_38\%\].bg-spot-peach-150.dark\:bg-midnight-700:first-child > p.mt-1.text-balance.text-center:nth-child(2)
-copilot.microsoft.com###\:r4\: > div.relative.flex.flex-col > div.m-2.rounded-2xl.px-4.pb-4.pt-5.flex.flex-col.items-center.justify-center.bg-cover.bg-\[center_bottom_10\%\].dark\:bg-\[center_bottom_38\%\].bg-spot-peach-150.dark\:bg-midnight-700:first-child
-copilot.microsoft.com###\:r4\: > div.relative.flex.flex-col > button.relative.flex.items-center.text-foreground-800.fill-foreground-800.active\:text-foreground-600.active\:fill-foreground-600.dark\:active\:text-foreground-650.dark\:active\:fill-foreground-650.bg-transparent.safe-hover\:bg-black\/5.active\:bg-black\/3.dark\:safe-hover\:bg-white\/8.dark\:active\:bg-white\/5.text-sm.justify-center.min-h-10.min-w-10.px-3.py-2.gap-x-2.rounded-xl.before\:rounded-xl.before\:absolute.before\:inset-0.before\:pointer-events-none.before\:border.before\:border-transparent.before\:contrast-more\:border-2.outline-2.outline-offset-1.focus-visible\:z-\[1\].focus-visible\:outline.focus-visible\:outline-stroke-900.justify-between.text-start:nth-child(7)
-copilot.microsoft.com###\:r4\: > div.relative.flex.flex-col > button.relative.flex.items-center.text-foreground-800.fill-foreground-800.active\:text-foreground-600.active\:fill-foreground-600.dark\:active\:text-foreground-650.dark\:active\:fill-foreground-650.bg-transparent.safe-hover\:bg-black\/5.active\:bg-black\/3.dark\:safe-hover\:bg-white\/8.dark\:active\:bg-white\/5.text-sm.justify-center.min-h-10.min-w-10.px-3.py-2.gap-x-2.rounded-xl.before\:rounded-xl.before\:absolute.before\:inset-0.before\:pointer-events-none.before\:border.before\:border-transparent.before\:contrast-more\:border-2.outline-2.outline-offset-1.focus-visible\:z-\[1\].focus-visible\:outline.focus-visible\:outline-stroke-900.justify-between.text-start:nth-child(8)
-copilot.microsoft.com###\:r4\: > div.relative.flex.flex-col > div:nth-child(10)
-copilot.microsoft.com##.mt-auto
+
 
 ! 2025年5月1日 https://www.bing.com
 www.bing.com##.copans_bottom_sec
@@ -1627,13 +1610,13 @@ event.5eplay.com##footer
 www.bing.com##.composer_container
 
 ! 2025年12月19日 https://mooc1.chaoxing.com 学习通作业临时屏蔽自己的作答以及分数
-mooc1.chaoxing.com## .aiArea > .aiAreaContent > .mark_answer > .clearfix.mark_key > .fl.marginRight40.colorDeep
-mooc1.chaoxing.com##.aiArea > .aiAreaContent > .mark_answer > .mark_score
-mooc1.chaoxing.com##.aiArea > .aiAssistant
-mooc1.chaoxing.com##.positionStyle > .mark_score
+! mooc1.chaoxing.com## .aiArea > .aiAreaContent > .mark_answer > .clearfix.mark_key > .fl.marginRight40.colorDeep
+! mooc1.chaoxing.com##.aiArea > .aiAreaContent > .mark_answer > .mark_score
+! mooc1.chaoxing.com##.aiArea > .aiAssistant
+! mooc1.chaoxing.com##.positionStyle > .mark_score
 !填空题作答
-mooc1.chaoxing.com##dd > .marking_cuo
-mooc1.chaoxing.com##.aiArea > .aiAreaContent > .mark_answer > div > .colorDeep.mark_fill
+! mooc1.chaoxing.com##dd > .marking_cuo
+! mooc1.chaoxing.com##.aiArea > .aiAreaContent > .mark_answer > div > .colorDeep.mark_fill
 
 
 
@@ -1652,6 +1635,12 @@ www.doubao.com##button[data-testid="modal_service_button"]
 www.doubao.com##button[data-testid="model_team_button"]
 www.doubao.com##button[data-testid="doubao_product_website"]
 www.doubao.com##button[data-testid="download_app_item"]
+www.doubao.com##div[data-testid="download_item"]
+
+!左下角的推广--div
+www.doubao.com##div[data-testid="download_app_item"]
+www.doubao.com##div[data-testid="doubao_product_website"]
+www.doubao.com##div[class="flex h-38 w-full items-center truncate rounded-dbx-sm px-10 py-4 [font-size:14px] [font-weight:400] text-dbx-text-primary hover:cursor-pointer focus:bg-dbx-fill-trans-10-hover focus:outline-none data-[disabled]:cursor-not-allowed data-[state=open]:bg-dbx-fill-trans-10-hover [&:not([data-disabled])]:hover:bg-dbx-fill-trans-10-hover"]
 www.doubao.com##div[data-testid="download_item"]
 
 !中间的东西--div
@@ -1677,4 +1666,75 @@ www.doubao.com##button[data-testid="create_doc_by_message"]
 !验证中
 ibytedapm.com
 lf3-short.ibytedapm.com
+
+! 2025年12月20日 https://www.kimi.com
+www.kimi.com##.christmas-dialog
+
+! 2025年12月21日 https://aistudio.google.com
+aistudio.google.com##.ng-star-inserted.banner-container
+aistudio.google.com##.ng-star-inserted.chat-hallucinations-disclaimer
+
+! 2025年12月21日 https://www.bilibili.com
+www.bilibili.com###ogvPageVipHalfCashierBox
+www.bilibili.com##.sale-info
+www.bilibili.com##.bpx-player-toast-fixed > .bpx-player-toast-unfold.bpx-player-toast-row > .bpx-player-toast-item
+
+! 2025年12月22日 https://aistudio.google.com
+aistudio.google.com##button.ng-star-inserted.ms-button-icon.ms-button-borderless.response-feedback-button.mat-mdc-tooltip-trigger
+!aistudio.google.com##div[class="actions hover-or-edit"]
+
+! 2025年12月23日 https://www.youtube.com
+www.youtube.com##.ytp-autohide.ytp-ce-shown.playing-mode.ytp-autonav-endscreen-cancelled-state.ytp-fine-scrubbing-exp.ytp-large-width-mode.ytp-fullscreen-metadata-top.ytp-hide-fullscreen-title.ytp-heat-map.ytp-fit-cover-video.ytp-delhi-modern-compact-controls.ytp-delhi-horizontal-volume-controls.ytp-delhi-modern-icons.ytp-delhi-modern.ytp-disable-bottom-gradient.ytp-hide-info-bar.ytp-cards-teaser-dismissible.ytp-grid-scrollable.ytp-livebadge-color.ytp-exp-ppp-update.ytp-modern-caption.ytp-exp-bottom-control-flexbox.ytp-transparent.html5-video-player
+
+! 2025年12月24日 https://tieba.baidu.com
+tieba.baidu.com##.tieba-custom-pass-login
+
+! 2025年12月24日 https://www.gcores.com
+www.gcores.com##.navLayout_main > .footer
+www.gcores.com##.sideFooter_certificates
+www.gcores.com##.navLayout_side_fixed
+
+
+!123云盘跳转
+||www.iqiyi.com
+
+! 2025年12月27日 https://www.doubao.com
+www.doubao.com##.w-full > .theme-samantha-uDexJL.mdbox-theme-next.flow-markdown-body.container-P2rR72 > div.custom-code-block-container.disable-theme-style.hide-indicator.custom-code-block-container--c.light> .code-area.code-area-yxsM36 > .header-wrapper-Mbk8s6 > .header-IAeXdE
+
+! 2025年12月27日 https://aistudio.google.com
+aistudio.google.com## .mat-content
+
+! 2025年12月27日 https://www.nvidia.cn
+www.nvidia.cn##.section.aemform
+!www.nvidia.cn##.large-4.medium-4.small-12.left-column.column
+www.nvidia.cn##.imgwidth > .bannerTracking
+!www.nvidia.cn##.large-4.medium-12.small-12.left-column.column > .equi-height-col.background-none
+
+! 2025年12月27日 https://www.nvidia.cn
+www.nvidia.cn##.parsys.textCmpEnhancedButton-par > .section.parbase.image
+
+!蓝奏云
+lanzoux.com##.n_bot
+lanzoux.com##.n_foot
+lanzoux.com##.jingshi
+lanzoux.com##.user-code
+
+lanzout.com##.n_bot
+lanzout.com##.n_foot
+lanzout.com##.jingshi
+lanzout.com##.user-code
+lanzout.com##.foot_info
+
+
+! 2025年12月27日 https://x6d.com
+x6d.com##[href^="https://www.2xb.cn/index.php"]
+
+! 2025年12月27日 https://pan.baidu.com
+pan.baidu.com##.wp-s-aside-nav__main-item.wp-s-aside-nav-bubble
+
+! 2025年12月27日 https://115cdn.com
+115cdn.com##.overflow-hidden.ad-popup-container
+
+! 2025年12月29日 https://www.bilibili.com
+www.bilibili.com##.video-page-operator-card-small > .card-box > .pic-box > .pic > .framepreview-box
 
