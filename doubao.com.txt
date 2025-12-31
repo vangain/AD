@@ -15,6 +15,12 @@ www.doubao.com##button[data-testid="doubao_product_website"]
 www.doubao.com##button[data-testid="download_app_item"]
 www.doubao.com##div[data-testid="download_item"]
 
+!左下角的推广--div
+www.doubao.com##div[data-testid="download_app_item"]
+www.doubao.com##div[data-testid="doubao_product_website"]
+www.doubao.com##div[class="flex h-38 w-full items-center truncate rounded-dbx-sm px-10 py-4 [font-size:14px] [font-weight:400] text-dbx-text-primary hover:cursor-pointer focus:bg-dbx-fill-trans-10-hover focus:outline-none data-[disabled]:cursor-not-allowed data-[state=open]:bg-dbx-fill-trans-10-hover [&:not([data-disabled])]:hover:bg-dbx-fill-trans-10-hover"]
+www.doubao.com##div[data-testid="download_item"]
+
 !中间的东西--div
 www.doubao.com##div[id="experiment-guidance-suggestions"]
 
