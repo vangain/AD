@@ -1119,32 +1119,6 @@ cloud.189.cn##.outlink-advertising.advertising
 !@@||birdflock.unipus.cn/ufe/third/sensorsdata/*/sensorsdata.min.js$script
 !@@||birdflock.unipus.cn/ufe/third/sensorsdata/*.js^$script
 
-! 2025年5月12日 https://aistudio.google.com
-!aistudio.google.com##.ng-star-inserted.ng-tns-c2825503498-1.disclaimer-container
-aistudio.google.com##.ng-star-inserted[class^="ng-tns-c"][class*="disclaimer-container"]
-!aistudio.google.com##.ng-star-inserted.ng-tns-c3991213382-6.chips-container
-!aistudio.google.com##.ng-star-inserted[class^="ng-tns-c"][class*="chips-container"]
-!aistudio.google.com##.ng-star-inserted.ng-tns-c2007320340-1.disclaimer-container
-!aistudio.google.com##.ng-star-inserted.ng-trigger-fadeInOut.ng-trigger.ng-tns-c2007320340-1.disclaimer
-!aistudio.google.com##.main-content .disclaimer-container
-aistudio.google.com##[class*="disclaimer-container"]
-!aistudio.google.com##[class*="chips-container"]
-!这个可能比较官广泛aistudio.google.com##.disclaimer-container
-! 搜索栏的推广
-aistudio.google.com##.promo-gallery-container
-
-! 2025年5月12日 https://aistudio.google.com
-aistudio.google.com##.ng-tns-c2007320340-1.nav-list > .ng-tns-c2007320340-1.clickable-space
-aistudio.google.com##[class^="ng-tns-c"].nav-list > [class^="ng-tns-c"].clickable-space
-aistudio.google.com##[class*="ng-tns"].nav-list > [class*="ng-tns"].clickable-space
-
-! 2025年5月14日 https://aistudio.google.com
-!aistudio.google.com##.ng-star-inserted.ng-tns-c1442257698-1.disclaimer-container
-
-! 2025年5月15日 https://aistudio.google.com
-aistudio.google.com##.mat-icon-no-color.mat-icon-inline.mat-ligature-font.material-icons.material-symbols-outlined.notranslate.mat-icon
-aistudio.google.com##button.ng-star-inserted.mat-unthemed.response-feedback-button.mat-mdc-tooltip-trigger.mat-mdc-button-base.mat-mdc-icon-button.mdc-icon-button
-
 
 
 ! 2025年5月15日 https://url94.ctfile.com
@@ -1158,21 +1132,6 @@ ghxi.com##div:last-child > div.container
 ghxi.com##div:nth-of-type(7)
 ghxi.com##div:nth-of-type(6)
 
-! 2025年5月15日 https://aistudio.google.com
-aistudio.google.com##.ng-star-inserted.info.toast
-aistudio.google.com##.mat-snack-bar-container-animations-enabled.mat-snack-bar-container-enter.ms-toast-snack-bar-container.mat-mdc-snack-bar-container.mdc-snackbar
-||www.gstatic.com/aistudio/watermark/watermark.png$image
-aistudio.google.com##.generating.loading-indicator
-
-
-! 2025年5月17日 https://aistudio.google.com
-||www.gstatic.com/images/branding/productlogos/googleg/v6/24px.svg$image
-aistudio.google.com##.search-entry-container-title
-
-! 2025年5月18日 https://www.123pan.cn
-
-! 2025年5月18日 https://aistudio.google.com
-aistudio.google.com##.ng-tns-c1458329229-6.gradient-text
 
 ! 2025年5月22日 https://www.kimi.com
 www.kimi.com##.legal-footer
@@ -1462,8 +1421,6 @@ bing.com#?#li:has(cite:contains(csdn.net))
 bing.com#?#li:has(cite:contains(bk.taobao.com))
 bing.com#?#li:has(cite:contains(163.com))
 
-! 2025年10月8日 https://aistudio.google.com
-aistudio.google.com##.ng-star-inserted> .ng-star-inserted.lockup-logo
 
 ! 2025年10月9日 https://stat2-ans.chaoxing.com
 ||stat2-ans.chaoxing.com/stat2/images/ocr/bg.png
@@ -1575,11 +1532,6 @@ www.toutiao.com##.ttp-portal-anime-show.ttp-portal-show.ttp-message-wrapper.ttp-
 www.toutiao.com##.download.tool-item
 www.toutiao.com##.download-app-banner
 
-! 2025年12月2日 https://aistudio.google.com
-#aistudio临时收起思考框
-!aistudio.google.com##.thought-collapsed-text
-!aistudio.google.com##.compact-accordion.mat-accordion
-
 ! 2025年12月4日 https://event.5eplay.com
 event.5eplay.com##.mini-footer
 event.5eplay.com##.right-aside-box
@@ -1670,18 +1622,6 @@ lf3-short.ibytedapm.com
 ! 2025年12月20日 https://www.kimi.com
 www.kimi.com##.christmas-dialog
 
-! 2025年12月21日 https://aistudio.google.com
-aistudio.google.com##.ng-star-inserted.banner-container
-aistudio.google.com##.ng-star-inserted.chat-hallucinations-disclaimer
-
-! 2025年12月21日 https://www.bilibili.com
-www.bilibili.com###ogvPageVipHalfCashierBox
-www.bilibili.com##.sale-info
-www.bilibili.com##.bpx-player-toast-fixed > .bpx-player-toast-unfold.bpx-player-toast-row > .bpx-player-toast-item
-
-! 2025年12月22日 https://aistudio.google.com
-aistudio.google.com##button.ng-star-inserted.ms-button-icon.ms-button-borderless.response-feedback-button.mat-mdc-tooltip-trigger
-!aistudio.google.com##div[class="actions hover-or-edit"]
 
 ! 2025年12月23日 https://www.youtube.com
 www.youtube.com##.ytp-autohide.ytp-ce-shown.playing-mode.ytp-autonav-endscreen-cancelled-state.ytp-fine-scrubbing-exp.ytp-large-width-mode.ytp-fullscreen-metadata-top.ytp-hide-fullscreen-title.ytp-heat-map.ytp-fit-cover-video.ytp-delhi-modern-compact-controls.ytp-delhi-horizontal-volume-controls.ytp-delhi-modern-icons.ytp-delhi-modern.ytp-disable-bottom-gradient.ytp-hide-info-bar.ytp-cards-teaser-dismissible.ytp-grid-scrollable.ytp-livebadge-color.ytp-exp-ppp-update.ytp-modern-caption.ytp-exp-bottom-control-flexbox.ytp-transparent.html5-video-player
@@ -1701,8 +1641,6 @@ www.gcores.com##.navLayout_side_fixed
 ! 2025年12月27日 https://www.doubao.com
 www.doubao.com##.w-full > .theme-samantha-uDexJL.mdbox-theme-next.flow-markdown-body.container-P2rR72 > div.custom-code-block-container.disable-theme-style.hide-indicator.custom-code-block-container--c.light> .code-area.code-area-yxsM36 > .header-wrapper-Mbk8s6 > .header-IAeXdE
 
-! 2025年12月27日 https://aistudio.google.com
-aistudio.google.com## .mat-content
 
 ! 2025年12月27日 https://www.nvidia.cn
 www.nvidia.cn##.section.aemform
@@ -1737,4 +1675,16 @@ pan.baidu.com##.wp-s-aside-nav__main-item.wp-s-aside-nav-bubble
 
 ! 2025年12月29日 https://www.bilibili.com
 www.bilibili.com##.video-page-operator-card-small > .card-box > .pic-box > .pic > .framepreview-box
+
+!https://aistudio.google.com
+!顶部-隐私政策升级
+aistudio.google.com##.ng-star-inserted.banner-container
+!对话末尾--Google AI models may make mistakes, so double-check outputs.
+aistudio.google.com##.ng-star-inserted.chat-hallucinations-disclaimer
+!对话末尾--点赞点踩
+aistudio.google.com##.ng-star-inserted.turn-footer
+
+!思考框-上下侧文字
+aistudio.google.com###mat-expansion-panel-header-3 > .mat-content-hide-toggle.mat-content
+aistudio.google.com##.mat-content-hide-toggle.mat-content > .thought-panel-footer.v3-font-label.mat-mdc-tooltip-trigger.mat-expansion-panel-header-title
 
