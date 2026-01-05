@@ -15,12 +15,6 @@ www.doubao.com##button[data-testid="doubao_product_website"]
 www.doubao.com##button[data-testid="download_app_item"]
 www.doubao.com##div[data-testid="download_item"]
 
-!左下角的推广--div
-www.doubao.com##div[data-testid="download_app_item"]
-www.doubao.com##div[data-testid="doubao_product_website"]
-www.doubao.com##div[class="flex h-38 w-full items-center truncate rounded-dbx-sm px-10 py-4 [font-size:14px] [font-weight:400] text-dbx-text-primary hover:cursor-pointer focus:bg-dbx-fill-trans-10-hover focus:outline-none data-[disabled]:cursor-not-allowed data-[state=open]:bg-dbx-fill-trans-10-hover [&:not([data-disabled])]:hover:bg-dbx-fill-trans-10-hover"]
-www.doubao.com##div[data-testid="download_item"]
-
 !中间的东西--div
 www.doubao.com##div[id="experiment-guidance-suggestions"]
 
@@ -37,6 +31,9 @@ www.doubao.com##li[data-testid="message_action_report"]
 
 !转为文档编辑--button
 www.doubao.com##button[data-testid="create_doc_by_message"]
+
+!对话顶栏标题下面的“内容由 AI 生成”
+www.doubao.com##.s-font-xxs.text-\(--dbx-text-disable\).\!text-\[10px\].truncate.justify-center.items-center.w-full.flex
 
 !验证中
 ||p3-flow-imagex-sign.byteimg.com/ocean-cloud-tos/image_generation$image
