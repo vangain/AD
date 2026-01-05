@@ -1,0 +1,6 @@
+! www.kimi.com
+www.kimi.com##.download-app-btn
+www.kimi.com##.user-info > .membership-upgrade
+www.kimi.com##div[class="membership-upgrade"]
+www.kimi.com##.home-banner
+www.kimi.com##.kfc-item.nav-item
