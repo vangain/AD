@@ -6,10 +6,21 @@ aistudio.google.com##.ng-star-inserted.chat-hallucinations-disclaimer
 !对话末尾--点赞点踩
 aistudio.google.com##.ng-star-inserted.turn-footer
 
-!思考框-上下侧文字
+!思考框-上下侧文字与图片
 aistudio.google.com###mat-expansion-panel-header-3 > .mat-content-hide-toggle.mat-content
 aistudio.google.com##.mat-content-hide-toggle.mat-content > .thought-panel-footer.v3-font-label.mat-mdc-tooltip-trigger.mat-expansion-panel-header-title
+aistudio.google.com##.generating.loading-indicator
+aistudio.google.com##.mat-content-hide-toggle.mat-content > .top-panel-title.mat-expansion-panel-header-title
+aistudio.google.com##.mat-content-hide-toggle.mat-content
+||www.gstatic.com/aistudio/watermark/watermark.png$image
+aistudio.google.com##[class="mat-expansion-panel-header-title top-panel-title"]
+aistudio.google.com##[class="mat-expansion-panel-header mat-focus-indicator top-panel-header mat-expansion-toggle-indicator-after"]
+!代码框-前面的名字介绍
+aistudio.google.com##.mat-content > .mat-expansion-panel-header-title > span.ng-star-inserted
 
-
+!开始页面--Aistudio Logo
+aistudio.google.com##.ng-star-inserted> .ng-star-inserted.lockup-logo
+!谷歌搜索的logo
+aistudio.google.com##.ng-star-inserted.grounding-source.search-source
 
 
