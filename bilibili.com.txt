@@ -332,3 +332,34 @@ www.bilibili.com##.act-now.activity-m-v1
 
 ! 这样的规则无法屏蔽 ||i1.hdslb.com/bfs/garb/open/*@.avif
 !!!!!
+
+!这是新添加
+!##############################################################################
+!bilibili.com
+
+
+! 屏蔽视频投币
+www.bilibili.com##.video-toolbar-left-item.video-coin
+! 屏蔽稍后再看
+www.bilibili.com##div[class="watch-later-video van-watchlater black"]
+
+! 屏蔽推荐视频的视频封面
+www.bilibili.com##.box-a > .b-img
+!||i2.hdslb.com/bfs/archive/*.jpg@336w_190h_!web-video-rcmd-cover.avif
+! 屏蔽“已关注”的文字，并且屏蔽“未关注”的“关注”选项
+www.bilibili.com##.van-popover__reference.already-btn
+www.bilibili.com##.not-follow.b-gz.follow-btn.default-btn
+
+
+! 屏蔽B站评论区用户装扮/起航卡片
+www.bilibili.com##bili-comment-user-sailing-card
+! 屏蔽B站评论区头像右侧的装饰容器
+www.bilibili.com##div#ornament
+www.bilibili.com##div[id="ornament"]
+
+! 视频播放结束页
+www.bilibili.com##.bpx-player-ending-wrap
+
+
+
+
