@@ -4,60 +4,6 @@ www.twitch.tv##.ceAbGI.Layout-sc-1xcs6mc-0
 ! Google.com
 www.google.com##.VEELad.nD2EKb
 
-! 2025年5月5日 https://www.bilibili.com
-www.bilibili.com##.video-toolbar-left-item.video-coin
-www.bilibili.com##.video-toolbar-item-text.video-share-info
-www.bilibili.com##.on.video-toolbar-left-item.video-coin
-www.bilibili.com##div.usercard-wrap:nth-child(18) > div.user-card-m-exp.card-loaded > div.bg:first-child
-www.bilibili.com##div.usercard-wrap:nth-child(18) > div.user-card-m-exp.card-loaded > div.user-info-wrapper:nth-child(2)
-www.bilibili.com###biliMainHeader > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child > div.v-popover.is-bottom:last-child > div.v-popover-content.avatar-popover > div.avatar-panel-popover > div.vip-entry-containter:nth-child(6)
-www.bilibili.com###biliMainHeader > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child > div.v-popover.is-bottom:last-child > div.v-popover-content.avatar-popover > div.avatar-panel-popover > div.links-item:nth-child(7) > div.v-popover-wrap:last-child > a.single-link-item:first-child
-www.bilibili.com###biliMainHeader > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child > div.v-popover.is-bottom:last-child > div.v-popover-content.avatar-popover > div.avatar-panel-popover > div.v-popover-wrap.level-item:nth-child(4)
-www.bilibili.com###biliMainHeader > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child > div.v-popover.is-bottom:last-child > div.v-popover-content.avatar-popover > div.avatar-panel-popover > div.coins-item:nth-child(3)
-www.bilibili.com###arc_toolbar_report > .video-toolbar-right
-www.bilibili.com##.idc-theme-img
-www.bilibili.com###biliscope-id-card-data
-www.bilibili.com##.bpx-player-ending-wrap
-www.bilibili.com##.follow-btn-inner
-bilibili.com###i_cecream > div.bili-feed4:last-child > div.bili-header.large-header:first-child > div.bili-header__bar:first-child > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child > div.v-popover.is-bottom:last-child > div.v-popover-content.avatar-popover > div.avatar-panel-popover > div.vip-entry-containter:nth-child(6)
-bilibili.com###i_cecream > div.bili-feed4:last-child > div.bili-header.large-header:first-child > div.bili-header__bar:first-child > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child > div.v-popover.is-bottom:last-child > div.v-popover-content.avatar-popover > div.avatar-panel-popover > div.vip-item:nth-child(3)
-
-! 2025年5月2日 https://space.bilibili.com
-space.bilibili.com##.m-level.h-level
-space.bilibili.com##.m-level.h-level
-space.bilibili.com##.auth-section
-space.bilibili.com##.ann-section
-space.bilibili.com##.header-avatar-wrap.v-popover-wrap > .is-bottom.v-popover
-space.bilibili.com##.avatar-popover.v-popover-content
-space.bilibili.com###biliMainHeader > div.bili-header > div.bili-header__bar.transparent-header > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child > div.v-popover.is-bottom:last-child > div.v-popover-content.avatar-popover > div.avatar-panel-popover > div.vip-entry-containter:nth-child(6)
-space.bilibili.com###biliMainHeader > div.bili-header > div.bili-header__bar.transparent-header > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child > div.v-popover.is-bottom:last-child > div.v-popover-content.avatar-popover > div.avatar-panel-popover > div.links-item:nth-child(7) > div.v-popover-wrap:last-child > a.single-link-item
-space.bilibili.com##.new-space-entry
-space.bilibili.com###biliMainHeader > div.bili-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child > div.v-popover.is-bottom:last-child > div.v-popover-content.avatar-popover > div.avatar-panel-popover > div.vip-entry-containter:nth-child(6)
-space.bilibili.com###biliMainHeader > div.bili-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child > div.v-popover.is-bottom:last-child > div.v-popover-content.avatar-popover > div.avatar-panel-popover > div.links-item:nth-child(7) > div.v-popover-wrap:last-child > a.single-link-item:first-child
-space.bilibili.com###biliMainHeader > div.bili-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child > div.v-popover.is-bottom:last-child > div.v-popover-content.avatar-popover > div.avatar-panel-popover > div.links-item:nth-child(7) > div.v-popover-wrap:last-child
-space.bilibili.com###biliMainHeader > div.bili-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child > div.v-popover.is-bottom:last-child > div.v-popover-content.avatar-popover > div.avatar-panel-popover > div.v-popover-wrap.level-item:nth-child(4)
-space.bilibili.com##div.float-button:nth-of-type(1)
-space.bilibili.com##.elec.section
-space.bilibili.com##.i-live.section > .section-title
-space.bilibili.com##.game-section
-space.bilibili.com##.elec-section
-space.bilibili.com##.game.section
-space.bilibili.com##.disabled.cover-normal.cover > .disabled-cover > p
-||i0.hdslb.com/bfs/vip/3788b674c69072f1ee252b79a31ecc8c43af3039.png@1c.webp$image
-||i0.hdslb.com/bfs/seed/jinkela/short/user-avatar/big-vip.svg$image
-
-! 2025年4月30日 https://live.bilibili.com
-live.bilibili.com##.gift-planet-entry
-live.bilibili.com##.web-player-ending-panel-recommendList.com
-live.bilibili.com##.web-player-ending-panel-recommendList
-live.bilibili.com##.gift-planet-entry
-live.bilibili.com##.fs-14.t-center.w-100.p-rel.bottom
-live.bilibili.com###right-part > div.shortcuts-ctnr.h-100.f-left:last-child > div.shortcut-item.h-100.p-relative.f-left.pointer:nth-child(2)
-live.bilibili.com###observerTarget > div.card-list:last-child
-live.bilibili.com##.p-fixed.webp.room-bg
-live.bilibili.com##.min-h-4 > div
-live.bilibili.com##.text-token-text-primary.btn-secondary.relative.btn
-live.bilibili.com###radix-\:r20\: > div.max-h-\[var\(--radix-dropdown-menu-content-available-height\)\].overflow-y-auto.min-w-fit.py-2 > span:nth-child(6)
 
 ! Kdocs.cn
 www.kdocs.cn##.k-jxm-helper-icons-other
@@ -72,22 +18,7 @@ u.unipus.cn##.content_right_bottom_left
 ! Fuclaude.com
 demo.fuclaude.com##.p-4.gap-4.flex-col.flex.z-toast.top-0.right-0.fixed
 
-! Moonshot.cn
-kimi.moonshot.cn##.exampleContainer___vruNK
-kimi.moonshot.cn##.container___FyViW
-kimi.moonshot.cn##div.myAgentDownload___FAlpz:nth-of-type(1)
-kimi.moonshot.cn##div.myAgentDownload___FAlpz:nth-of-type(2)
-kimi.moonshot.cn##li.css-1agx6im.MuiMenuItem-gutters.MuiMenuItem-root.MuiButtonBase-root:nth-of-type(3)
-kimi.moonshot.cn##.attachment-tip-container
-kimi.moonshot.cn##.app-download
-kimi.moonshot.cn##.extension-download
-kimi.moonshot.cn###app > div.n-config-provider > div.app.has-sidebar > div.pages:last-child > div.home-scroll-container > div.home > div.home-banner:first-child > canvas.doodle-container
-kimi.moonshot.cn###app > div.n-config-provider > div.app.has-sidebar > div.pages:last-child > div.home-scroll-container > div.home > div.home-case-list:last-child
-kimi.moonshot.cn##li.sub-item
-kimi.moonshot.cn##.home-case-list
-kimi.moonshot.cn##.home-banner
-kimi.moonshot.cn##.recommend-prompt
-kimi.moonshot.cn##.legal-footer
+
 
 
 
@@ -710,8 +641,6 @@ www.cnbeta.com###dfb-wrapper-848966144-1677-1512110177417 > ins
 
 #######################################################以下为未整理
 
-! 2025年5月7日 https://www.bilibili.com
-www.bilibili.com##.rec-list > div.video-page-card-small > .card-box > .pic-box > .pic > .framepreview-box
 
 ! 2025年5月7日 https://zhida.zhihu.com
 zhida.zhihu.com##.r-agouwx.r-buy8e9.r-lltvgl.r-1wbh5a2.r-16y2uox.r-18u37iz.r-150rngu.css-175oi2r > .r-18u37iz.css-175oi2r > .css-175oi2r > .css-175oi2r > div.css-175oi2r > .css-175oi2r > .css-175oi2r > div.css-175oi2r > div.css-175oi2r > div.css-175oi2r > .css-146c3p1
@@ -720,9 +649,7 @@ zhida.zhihu.com###fullScreen > div.css-175oi2r:first-child > div.css-175oi2r:las
 ! 2025年5月7日 https://www.yxssp.com
 www.yxssp.com##.td_block_template_1.td-pb-border-top.td_uid_7_681b29ac98500_rand.td_block_widget.td_block_image_box.td_block_wrap > .td-big-image.td-image-box-row
 
-! 2025年5月9日 https://www.bing.com
-www.bing.com###b_pole
-||api.vc.bilibili.com
+
 
 #####################################################################################
 ! Bilibili uBlock Origin 用户自定义规则 (整理版)
@@ -885,16 +812,24 @@ bilibili.com##+js(no-beacon-send)
 
 ! 评论区用户右上角个性装扮 / 周边标识 (图片及元素屏蔽)
 ! 用来屏蔽用户的评论右上角个性装扮
+||i*.hdslb.com/bfs/baselabs/op/*.png@96h.webp
 ||i0.hdslb.com/bfs/garb/item/*
 ||i0.hdslb.com/bfs/garb/open/*
 ||i*.hdslb.com/bfs/garb/item/*@*.webp
+||i*.hdslb.com/bfs/garb/open/*@*.webp
+||i0.hdslb.com/bfs/garb/*.png@96h.webp
+!||i0.hdslb.com/bfs/garb/365e0ad0c3496a813efb551f8307fa9b9a146104.png@96h.webp
 !i0.hdslb.com/bfs/garb/item/6efef5847f537f15118ef40b9b17136099374d48.png@96h.webp (示例)
+!||i0.hdslb.com/bfs/baselabs/op/3110bca236dfa99a7d6863f53ab79754be8544752d4525bb3fdc19f0854c14af.png@96h.webp
+||i0.hdslb.com/bfs/baselabs/op/*.png@96h.webp
 ||i1.hdslb.com/bfs/garb/item/*.webp@132w_132h_1c.avif
 !i1.hdslb.com/bfs/garb/open/0e8854c5f5572cd282e3dd1749ed8f312f25e663.png@132w_132h_1c_1s.avif (示例)
 ||i1.hdslb.com/bfs/garb/open/*.png@132w_132h_1c_1s.avif
 ||i*.hdslb.com/bfs/garb/item/*.png@*
 www.bilibili.com##comment img[src*="/bfs/garb/item/"]
-
+www.bilibili.com##comment img[src*="/bfs/garb/open/"]
+!右上角装扮的数字
+www.bilibili.com##[class="fanText fanTextPosition"]
 ! 用户评论浮动条构思图片
 ||i0.hdslb.com/bfs/space/*.png@732w_170h_1c.avif
 ||i1.hdslb.com/bfs/space/*.png@732w_170h_1c.avif
@@ -1059,7 +994,11 @@ www.bilibili.com##.act-now.activity-m-v1
 ||api.bilibili.com/x/kv-frontend/namespace/data?appKey
 
 ! 这是一纯粹的技术性兼容性工具，不需要屏蔽
-||bilibili.com/gentleman/polyfill.js
+!||bilibili.com/gentleman/polyfill.js
+
+! b站的首页搜索框推荐词
+! bilibili.com##input.nav-search-content::placeholder
+! bilibili.com##input.nav-search-input::placeholder
 
 ! 加载界面 GIF 图，感觉没啥用
 ||i0.hdslb.com/bfs/static/jinkela/long/gif/loading-blue.gif
@@ -1133,14 +1072,7 @@ ghxi.com##div:nth-of-type(7)
 ghxi.com##div:nth-of-type(6)
 
 
-! 2025年5月22日 https://www.kimi.com
-www.kimi.com##.legal-footer
-!ww.kimi.com##li.sub-item > .sub-item-content
-www.kimi.com##li.sub-item:nth-of-type(1)
-www.kimi.com##li.sub-item:nth-of-type(2)
-www.kimi.com##li.sub-item:nth-of-type(3)
 
-www.kimi.com##.home-banner
 ! 2025年5月22日 https://chatglm.cn
 chatglm.cn##.policy-wrap
 chatglm.cn##.vip-guide-container
@@ -1463,8 +1395,6 @@ www.xitongzhijia.com##.mt-20.bottom-banner
 ! 2025年10月18日 https://bangong.xitongzhijia.net
 bangong.xitongzhijia.net##.footer
 
-! 2025年10月18日 https://link.bilibili.com
-link.bilibili.com##.link-footer
 
 ! 2025年10月18日 https://zh.moegirl.org.cn
 zh.moegirl.org.cn###moe-global-footer
@@ -1482,12 +1412,6 @@ mooc1.chaoxing.com##div[class="maskDivReport"]
 mooc1.chaoxing.com##div[id="reportDiv"]
 !两个无效规则mooc1.chaoxing.com##span[class="pageNum"]
 !mooc1.chaoxing.com##span[style="opacity: 1;"]
-
-! 2025年10月21日 https://www.bilibili.com
-www.bilibili.com###biliMainFooter
-
-! 2025年10月21日 https://space.bilibili.com
-space.bilibili.com##.download-client-trigger.download-entry
 
 ! 2025年10月22日 https://mooc1.chaoxing.com
 mooc1.chaoxing.com##.ewmBg.iconBg
@@ -1562,11 +1486,11 @@ event.5eplay.com##footer
 www.bing.com##.composer_container
 
 ! 2025年12月19日 https://mooc1.chaoxing.com 学习通作业临时屏蔽自己的作答以及分数
-! mooc1.chaoxing.com## .aiArea > .aiAreaContent > .mark_answer > .clearfix.mark_key > .fl.marginRight40.colorDeep
-! mooc1.chaoxing.com##.aiArea > .aiAreaContent > .mark_answer > .mark_score
-! mooc1.chaoxing.com##.aiArea > .aiAssistant
+!  mooc1.chaoxing.com## .aiArea > .aiAreaContent > .mark_answer > .clearfix.mark_key > .fl.marginRight40.colorDeep
+!  mooc1.chaoxing.com##.aiArea > .aiAreaContent > .mark_answer > .mark_score
+!  mooc1.chaoxing.com##.aiArea > .aiAssistant
 ! mooc1.chaoxing.com##.positionStyle > .mark_score
-!填空题作答
+! 填空题作答
 ! mooc1.chaoxing.com##dd > .marking_cuo
 ! mooc1.chaoxing.com##.aiArea > .aiAreaContent > .mark_answer > div > .colorDeep.mark_fill
 
@@ -1619,9 +1543,6 @@ www.doubao.com##button[data-testid="create_doc_by_message"]
 ibytedapm.com
 lf3-short.ibytedapm.com
 
-! 2025年12月20日 https://www.kimi.com
-www.kimi.com##.christmas-dialog
-
 
 ! 2025年12月23日 https://www.youtube.com
 www.youtube.com##.ytp-autohide.ytp-ce-shown.playing-mode.ytp-autonav-endscreen-cancelled-state.ytp-fine-scrubbing-exp.ytp-large-width-mode.ytp-fullscreen-metadata-top.ytp-hide-fullscreen-title.ytp-heat-map.ytp-fit-cover-video.ytp-delhi-modern-compact-controls.ytp-delhi-horizontal-volume-controls.ytp-delhi-modern-icons.ytp-delhi-modern.ytp-disable-bottom-gradient.ytp-hide-info-bar.ytp-cards-teaser-dismissible.ytp-grid-scrollable.ytp-livebadge-color.ytp-exp-ppp-update.ytp-modern-caption.ytp-exp-bottom-control-flexbox.ytp-transparent.html5-video-player
@@ -1637,9 +1558,6 @@ www.gcores.com##.navLayout_side_fixed
 
 !123云盘跳转
 ||www.iqiyi.com
-
-! 2025年12月27日 https://www.doubao.com
-www.doubao.com##.w-full > .theme-samantha-uDexJL.mdbox-theme-next.flow-markdown-body.container-P2rR72 > div.custom-code-block-container.disable-theme-style.hide-indicator.custom-code-block-container--c.light> .code-area.code-area-yxsM36 > .header-wrapper-Mbk8s6 > .header-IAeXdE
 
 
 ! 2025年12月27日 https://www.nvidia.cn
@@ -1673,8 +1591,6 @@ pan.baidu.com##.wp-s-aside-nav__main-item.wp-s-aside-nav-bubble
 ! 2025年12月27日 https://115cdn.com
 115cdn.com##.overflow-hidden.ad-popup-container
 
-! 2025年12月29日 https://www.bilibili.com
-www.bilibili.com##.video-page-operator-card-small > .card-box > .pic-box > .pic > .framepreview-box
 
 !https://aistudio.google.com
 !顶部-隐私政策升级
@@ -1684,7 +1600,101 @@ aistudio.google.com##.ng-star-inserted.chat-hallucinations-disclaimer
 !对话末尾--点赞点踩
 aistudio.google.com##.ng-star-inserted.turn-footer
 
-!思考框-上下侧文字
+!思考框-上下侧文字与图片
 aistudio.google.com###mat-expansion-panel-header-3 > .mat-content-hide-toggle.mat-content
 aistudio.google.com##.mat-content-hide-toggle.mat-content > .thought-panel-footer.v3-font-label.mat-mdc-tooltip-trigger.mat-expansion-panel-header-title
+aistudio.google.com##.generating.loading-indicator
+aistudio.google.com##.mat-content-hide-toggle.mat-content > .top-panel-title.mat-expansion-panel-header-title
+aistudio.google.com##.mat-content-hide-toggle.mat-content
+||www.gstatic.com/aistudio/watermark/watermark.png$image
+aistudio.google.com##[class="mat-expansion-panel-header-title top-panel-title"]
+aistudio.google.com##[class="mat-expansion-panel-header mat-focus-indicator top-panel-header mat-expansion-toggle-indicator-after"]
+!代码框-前面的名字介绍
+aistudio.google.com##.mat-content > .mat-expansion-panel-header-title > span.ng-star-inserted
 
+!开始页面--Aistudio Logo
+aistudio.google.com##.ng-star-inserted> .ng-star-inserted.lockup-logo
+!谷歌搜索的logo
+aistudio.google.com##.ng-star-inserted.grounding-source.search-source
+
+
+
+
+! 2026年1月5日 https://xiaodao.lanzoui.com
+xiaodao.lanzoui.com##.n_bot
+
+! 2026年1月5日 https://www.ilanzou.com
+||www.ilanzou.com/static/img/pc_down.dbfd7966.png$image
+www.ilanzou.com##.ad-sign.el-image
+www.ilanzou.com##.el-popover__reference.link-btn
+
+! 2026年1月5日 https://www.kimi.com
+www.kimi.com##.download-app-btn
+www.kimi.com##.user-info > .membership-upgrade
+www.kimi.com##div[class="membership-upgrade"]
+www.kimi.com##.home-banner
+www.kimi.com##.kfc-item.nav-item
+!www.kimi.com##li.sub-item > .sub-item-content
+!www.kimi.com##li[data-v-6c5e5fc3]
+
+! 2026年1月5日 https://xueqiu.com
+xueqiu.com##.js-shown.dimmer.modals
+xueqiu.com##.taichi-banner-aside
+
+! 2026年1月5日 https://ailegal.baidu.com
+ailegal.baidu.com##.seoAdsForm.form-clue.side-form-clue
+ailegal.baidu.com##.tips
+ailegal.baidu.com##.collapsed-footer-item
+ailegal.baidu.com##.animate__zoomIn.animate__delay-2s.animate__animated.header-logo-tips
+ailegal.baidu.com##.header-logo
+
+! 2026年1月5日 https://fast.v2ex.com
+fast.v2ex.com###Bottom
+
+! 2026年1月5日 https://www.google.com
+www.google.com###logo > svg
+
+! 2026年1月6日 https://www.msn.cn
+www.msn.cn##.article_content.consumption-page-structure > .consumption-page-gridarea_rail > .consumption-page-rail-wrapper > views-right-rail
+www.msn.cn##.consumption-page-feed-wrapper > desktop-feed-views
+
+! 2026年1月6日 https://www.xiaoheihe.cn
+www.xiaoheihe.cn##.hb-view-download
+www.xiaoheihe.cn##.scroll-list__to-login
+
+#############################
+
+! 2026年1月6日 https://ping0.cc
+ping0.cc##.toprow.myeles
+ping0.cc##div[class="myeles"]
+ping0.cc##.footer
+
+! 2026年1月6日 https://ipquality.org
+ipquality.org##.homepage-seo-section
+ipquality.org##footer[class="bg-gray-900 text-white"]
+
+###########################
+!bilibili.com
+
+
+! 屏蔽视频投币
+www.bilibili.com##.video-toolbar-left-item.video-coin
+! 屏蔽稍后再看
+www.bilibili.com##div[class="watch-later-video van-watchlater black"]
+
+! 屏蔽推荐视频的视频封面
+www.bilibili.com##.box-a > .b-img
+!||i2.hdslb.com/bfs/archive/*.jpg@336w_190h_!web-video-rcmd-cover.avif
+! 屏蔽“已关注”的文字，并且屏蔽“未关注”的“关注”选项
+www.bilibili.com##.van-popover__reference.already-btn
+www.bilibili.com##.not-follow.b-gz.follow-btn.default-btn
+
+
+! 屏蔽B站评论区用户装扮/起航卡片
+www.bilibili.com##bili-comment-user-sailing-card
+! 屏蔽B站评论区头像右侧的装饰容器
+www.bilibili.com##div#ornament
+www.bilibili.com##div[id="ornament"]
+
+! 视频播放结束页
+www.bilibili.com##.bpx-player-ending-wrap
